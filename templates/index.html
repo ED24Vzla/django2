@@ -1,2 +1,5 @@
-<h1>"Esta es la pagina principal"</h1>
+{% extends 'base.html' %}
+
+{% block content  %}
 <a href= {% url 'blog:home' %}>Blog</a>
+{% endblock content %}
